@@ -11,4 +11,4 @@ void main() {
   blackPinkList[3] = '코드팩토리';
   print(blackPinkList);
 }
-//
+//ss
