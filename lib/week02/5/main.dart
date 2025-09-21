@@ -4,5 +4,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp();
+  runApp(
+    MaterialApp(  // 머티리얼 디장인 위젯
+      home: Scaffold( // Scaffold 위젯
+        body: Center(  // Text 위젯
+          child: Text('Hello Code Factory',
+          ),  // 마지막 매개변수 끝에 콤마 추가
+        ),
+      ),
+    ),
+  );
 }
